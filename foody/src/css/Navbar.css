@@ -1,0 +1,280 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(80, 76, 76);
+    padding: 20px;
+    height: 210px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-foody,
+.title-zone {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title-zone {
+    margin-left: 5px;
+}
+
+.title-white {
+    color: white;
+}
+
+.title-red {
+    color: red;
+}
+
+
+.navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 23px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: rgb(249, 244, 244);
+}
+
+.search-input:focus {
+    border-color: white;
+}
+
+.navbar-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #FF4343;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 17px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c00e0e;
+    transform: scale(1.01);
+
+}
+
+
+.add-items {
+    margin-left: auto;
+}
+
+
+
+
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding: 14px;
+    }
+
+    .navbar-container {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .navbar-title {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navbar-search {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .search-input {
+        width: auto;
+        /* Ensure it fits smaller screens */
+    }
+
+    .navbar-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .btn {
+        margin: 2px;
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal overlay - darkened background */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* #productName, #description, #price, #imagePath{
+    width: 95%;
+} */
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Form styling */
+.modal h2 {
+    margin: 0 0 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 95%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus, .form-group input:active {
+    border: 1px solid red;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #ff4343;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ff5e5e;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .modal {
+        width: 78%;
+        margin: 10px;
+        padding: 15px;
+    }
+}

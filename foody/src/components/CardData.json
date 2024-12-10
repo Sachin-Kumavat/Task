@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Omelette",
+        "img": "/images/img3.png",
+        "price": 12,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Breakfast"
+    },
+    {
+        "name": "Toast with Jam",
+        "img": "/images/img1.png",
+        "price": 8,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Breakfast"
+    },
+    {
+        "name": "Fruit Salad",
+        "img": "/images/img2.png",
+        "price": 10,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Lunch"
+    },
+    {
+        "name": "Boiled Eggs",
+        "img": "/images/img1.png",
+        "price": 10,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Breakfast"
+    },
+    {
+        "name": "Ramen",
+        "img": "/images/img2.png",
+        "price": 25,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Dinner"
+    },
+    {
+        "name": "Grilled Chicken",
+        "img": "/images/img3.png",
+        "price": 45,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Dinner"
+    },
+    {
+        "name": "Cake",
+        "img": "/images/img4.png",
+        "price": 18,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Lunch"
+    },
+    {
+        "name": "Burger",
+        "img": "/images/img5.png",
+        "price": 23,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Lunch"
+    },
+    {
+        "name": "Cheese Sandwich",
+        "img": "/images/img6.png",
+        "price": 15,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Dinner"
+    },
+    {
+        "name": "Caesar Salad",
+        "img": "/images/img3.png",
+        "price": 18,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Dinner"
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "img": "/images/img5.png",
+        "price": 22,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Breakfast"
+    },
+    {
+        "name": "Pancake",
+        "img": "/images/img6.png",
+        "price": 25,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Lunch"
+    },
+    {
+        "name": "Fried Rice",
+        "img": "/images/img6.png",
+        "price": 20,
+        "description": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+        "category": "Dinner"
+    }
+    
+    
+]
